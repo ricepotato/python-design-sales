@@ -2,13 +2,6 @@ from dataclasses import dataclass, field
 from enum import Enum
 
 
-@dataclass
-class CreditCard:
-    number: str
-    expiry_month: int
-    expiry_year: int
-
-
 class OrderStatus(Enum):
     OPEN = "open"
     PAID = "paid"

@@ -4,3 +4,4 @@
 htmlcov
 .mypy_cache
 .pytest_cache
+.env
